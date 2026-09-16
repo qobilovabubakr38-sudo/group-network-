@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --color-family-deep: #05070B;
+  --color-family-night: #0B111E;
+  --color-family-surface: #111827;
+  --color-family-card: #141C2E;
+  --color-family-card-hover: #1B263E;
+  --color-family-gold: #D4AF37;
+  --color-family-gold-light: #F3E5AB;
+  --color-family-gold-dark: #AA820A;
+  --color-family-text-primary: #F8FAFC;
+  --color-family-text-secondary: #94A3B8;
+  --color-family-text-muted: #64748B;
+  --color-family-text-gold: #E6C665;
+}
+
+/* Custom base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #05070B;
+  color: #F8FAFC;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B111E;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Glassmorphic luxury cards */
+.glass-panel {
+  background: rgba(16, 23, 38, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.glass-card {
+  background: rgba(20, 28, 46, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-card:hover {
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 15px rgba(212, 175, 55, 0.08);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to bottom right, #D4AF37, rgba(212, 175, 55, 0.1)) 1;
+}
+
+.gold-btn {
+  background: linear-gradient(135deg, #DFBD48 0%, #C59F28 100%);
+  color: #05070B;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gold-btn:hover {
+  background: linear-gradient(135deg, #EAD068 0%, #D4AF37 100%);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+  transform: translateY(-1px);
+}
+
+.gold-btn:active {
+  transform: translateY(0);
+}
+
+/* Animations */
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(0.98); }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3s infinite ease-in-out;
+}

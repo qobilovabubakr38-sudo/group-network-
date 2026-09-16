@@ -1,0 +1,64 @@
+======================================================
+✨ FAMILY NETWORK — PREMIUM PRIVATE RELATIVES PLATFORM
+======================================================
+
+Loyiha to‘liq tayyor holatda Ish Stolingizga (Desktop) ko‘chirildi!
+
+📁 Loyiha papkasi:
+C:\Users\SAMSUNG\Desktop\family-network
+
+🌐 BRAUZERDA KIRISH:
+http://localhost:3000
+
+🚀 QANDAY ISHGA TUSHIRILADI:
+Ish stolingizdagi "ISHGA_TUSHIRISH_FAMILY_NETWORK.bat" faylini 
+ikki marta bosing. U serverni yoqadi va brauzerni avtomatik ochadi.
+
+======================================================
+🔑 SUPER ADMIN (Oila Boshlig‘i) HISOBI:
+======================================================
+Login:    admin
+Parol:    Admin@2026
+
+Vazifasi:
+- Barcha guruhlarni ko‘radi
+- Qarindoshlarni qo‘shadi (ism, familiya, login, parol, tug‘ilgan sana, munosabat turi)
+- Qarindoshni kerakli guruhlarga kiritadi (multi-select)
+- Yangi guruhlar yaratadi
+- Rasmiy e‘lonlar (announcements) yuboradi
+- Parollarni tiklaydi va hisoblarni boshqaradi
+
+======================================================
+👥 SINOV UCHUN TAYYOR QARINDOSHLAR (Guruh Izolyatsiyasi):
+======================================================
+1. Sobir Rahimov (Amaki)
+   Login: sobir_amaki
+   Parol: Family@2026
+   Guruhi: Faqat "Dadam taraf"
+
+2. Nodira Rahimova (Amma)
+   Login: nodira_amma
+   Parol: Family@2026
+   Guruhi: Faqat "Dadam taraf"
+
+3. Madina Karimova (Xola)  --> BUGUN TUG‘ILGAN KUNI! 🎉
+   Login: madina_xola
+   Parol: Family@2026
+   Guruhi: Faqat "Onam taraf"
+
+4. Anvar Karimov (Tog‘a)   --> ERTAGA TUG‘ILGAN KUNI
+   Login: anvar_toga
+   Parol: Family@2026
+   Guruhi: Faqat "Onam taraf"
+
+5. Sherzod Rahimov (Uka)   --> Ikkala guruh a‘zosi
+   Login: sherzod_uka
+   Parol: Family@2026
+   Guruhi: "Dadam taraf" va "Onam taraf"
+
+======================================================
+🔒 XAVFSIZLIK:
+======================================================
+- Oddiy odamlar o‘zicha ro‘yxatdan o‘ta olmaydi (Sign Up yo‘q).
+- Begona guruh a‘zolari, chatlari, rasmlari, ovozli xabarlari va tug‘ilgan kunlari bir-biriga mutlaqo ko‘rinmaydi.
+- Server darajasida 403 Forbidden himoyasi to‘liq ishlaydi.
